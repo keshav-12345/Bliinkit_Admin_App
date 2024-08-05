@@ -43,4 +43,8 @@ object Utils {
         return user?.uid?: throw IllegalStateException("User not Logged in as you have entered wrong OTP")
     }
 
+    fun getRandomId():String{
+        return (1..25).map { ('A'..'Z') + ('a'..'z')+ ('0'..'9').random() }.joinToString("")
+    }
+
 }
