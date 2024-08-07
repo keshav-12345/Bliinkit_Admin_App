@@ -58,4 +58,25 @@ object Constants {
         "Maida & Sooji"
     )
 
+    val allProductCategoryIcon = arrayOf(
+        R.drawable.vegetable,
+        R.drawable.munchies,
+        R.drawable.atta_rice,
+        R.drawable.baby,
+        R.drawable.bakery_biscuits,
+        R.drawable.chicken_meat,
+        R.drawable.sweet_tooth,
+        R.drawable.cold_and_juices,
+        R.drawable.instant,
+        R.drawable.tea_coffee,
+        R.drawable.sauce_spreads,
+        R.drawable.paan_corner,
+        R.drawable.organic_premium,
+        R.drawable.pharma_wellness,
+        R.drawable.cleaning,
+        R.drawable.personal_care,
+        R.drawable.pet_care,
+        R.drawable.baseline_density_small_24
+    )
+
 }
